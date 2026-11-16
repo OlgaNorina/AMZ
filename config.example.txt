@@ -1,0 +1,12 @@
+# Required settings
+WIDTH=20
+HEIGHT=15
+ENTRY=0,0
+EXIT=19,14
+OUTPUT_FILE=output/maze.txt
+PERFECT=True
+
+# Optional settings (confirm accepted values against the full subject)
+SEED=42
+ALGORITHM=DFS
+DISPLAY=ASCII
