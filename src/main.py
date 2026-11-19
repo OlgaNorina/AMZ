@@ -26,7 +26,7 @@ def main() -> int:
             height=int(config["HEIGHT"]),
             entry=config["ENTRY"],
             exit=config["EXIT"],
-            seed=int(config.get("SEED")),
+            seed=config.get("SEED"),
         )
 
         if config["PERFECT"]:

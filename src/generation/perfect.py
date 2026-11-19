@@ -9,7 +9,10 @@ class PerfectGenerator(MazeGenerator):
         visited = set()
 
         # - Create random.Random(maze.seed), not global random state.
-        rng = random.Random(maze.seed)
+        if maze.seed:
+            rng = random.Random(int(maze.seed))
+        else:
+            rng = random.Random()
 
         # - Use an explicit stack to avoid Python recursion-depth limits.
         stack = []
