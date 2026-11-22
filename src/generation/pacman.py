@@ -14,6 +14,7 @@ class PacmanGenerator(MazeGenerator):
         # 5. Reduce dead ends, but preserve corridor-width and 42 constraints.
         # 6. Validate after modifications; retry or reject invalid candidates.
         # Use random.Random(maze.seed) for reproducibility.
+
         raise NotImplementedError
 
 
